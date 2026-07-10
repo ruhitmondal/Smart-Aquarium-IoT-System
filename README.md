@@ -1,92 +1,196 @@
-# Smart Aquarium Monitoring & Automation System
+<div align="center">
 
-![Cover](Cover.png)
+# 🐠 Smart Aquarium Monitoring & Automation System
+
+### ESP32-S3 Based IoT Aquarium System
+
+An IoT-based Smart Aquarium system that automatically monitors water conditions and controls fish feeding, water level, and oxygen supply using **ESP32-S3** and **Blynk Cloud**.
+
+![Cover](images/cover.png)
+
+![ESP32](https://img.shields.io/badge/ESP32-S3-blue?style=for-the-badge)
+![Arduino](https://img.shields.io/badge/Arduino-IDE-00979D?style=for-the-badge)
+![Blynk](https://img.shields.io/badge/Blynk-IoT-23C48E?style=for-the-badge)
+![C++](https://img.shields.io/badge/C++-Programming-blue?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=for-the-badge)
+
+</div>
 
 ---
 
-## Project Overview
+# 📖 Project Overview
 
-An ESP32-S3 based Smart Aquarium Monitoring and Automation System designed to automate aquarium maintenance and enable real-time IoT monitoring using the Blynk Cloud platform.
+This project is an ESP32-S3 based Smart Aquarium Monitoring and Automation System designed to reduce manual maintenance and improve fish health.
 
----
+The system continuously monitors:
 
-## Features
+- 🌡 Water Temperature
+- 💧 Water Level
+- ⚗ pH Value
+- 🕒 Real Time Clock
+
+Based on these measurements, the controller automatically performs:
 
 - Automatic Fish Feeding
-- Temperature Monitoring
-- pH Monitoring
-- Water Level Monitoring
-- Automatic Water Replacement
+- Automatic Water Refill
+- Water Drain Control
 - Oxygen Pump Control
-- Real Time Clock (RTC)
-- WiFi IoT Monitoring
-- Manual & Automatic Operation
+
+The complete system can also be monitored and controlled remotely through the **Blynk IoT Cloud Platform**.
 
 ---
 
-## Hardware
+# ✨ Key Features
 
-- ESP32-S3
-- DS3231 RTC
-- DS18B20 Temperature Sensor
-- pH Sensor
-- HC-SR04 Ultrasonic Sensor
-- Servo Motor
-- Relay Module
-- Water Pump
-- Oxygen Pump
+- 🐟 Automatic Fish Feeding
+- 🌡 Temperature Monitoring
+- ⚗ pH Monitoring
+- 💧 Water Level Detection
+- 🚰 Automatic Water Refill
+- ♻ Water Drain Control
+- 💨 Oxygen Pump Control
+- 🕒 RTC Based Feeding Schedule
+- 📱 Blynk Mobile Dashboard
+- 📡 WiFi Remote Monitoring
+- 🔄 Manual & Automatic Mode
 
 ---
 
-## Software
+# 🛠 Hardware Components
+
+| Component | Purpose |
+|-----------|----------|
+| ESP32-S3 | Main Controller |
+| DS18B20 | Temperature Sensor |
+| DS3231 RTC | Time Scheduling |
+| pH Sensor | Water Quality |
+| HC-SR04 | Water Level Detection |
+| Servo Motor | Fish Feeding |
+| Relay Module | Pump Control |
+| Water Pump | Water Refill |
+| Oxygen Pump | Oxygen Supply |
+
+---
+
+# 💻 Software Used
 
 - Arduino IDE
 - Embedded C++
 - Blynk IoT
-- ESP32 Libraries
+- ESP32 Board Package
 
 ---
 
-## Dashboard
+# 📷 Project Prototype
 
-![Dashboard](Dashboard.png)
-
----
-
-## Block Diagram
-
-![Block Diagram](BlockDiagram.png)
+<p align="center">
+<img src="images/prototype.jpeg" width="700">
+</p>
 
 ---
 
-## Circuit Diagram
+# 📱 Blynk Dashboard
 
-![Circuit](Circuit.png)
-
----
-
-## Prototype
-
-![Prototype](Aquarium.jpeg)
+<p align="center">
+<img src="images/dashboard.png" width="700">
+</p>
 
 ---
 
-## Future Improvements
+# 📊 System Block Diagram
+
+<p align="center">
+<img src="images/block-diagram.png" width="700">
+</p>
+
+---
+
+# ⚡ Circuit Diagram
+
+<p align="center">
+<img src="images/circuit-diagram.png" width="700">
+</p>
+
+---
+
+# ⚙ System Workflow
+
+```text
+Power ON
+      │
+      ▼
+Initialize ESP32-S3
+      │
+      ▼
+Read Sensors
+      │
+      ├── Temperature
+      ├── pH
+      ├── Water Level
+      └── RTC
+      │
+      ▼
+Decision Making
+      │
+      ├── Feed Fish
+      ├── Water Pump
+      ├── Oxygen Pump
+      └── Water Drain
+      │
+      ▼
+Update Blynk Dashboard
+      │
+      ▼
+Repeat
+```
+
+---
+
+# 📂 Repository Structure
+
+```text
+Smart-Aquarium-IoT-System
+│
+├── README.md
+├── LICENSE
+│
+├── images
+│   ├── cover.png
+│   ├── prototype.jpg
+│   ├── dashboard.png
+│   ├── block-diagram.png
+│   └── circuit-diagram.png
+│
+└── src
+    └── Smart_Aquarium.ino
+```
+
+---
+
+# 🚀 Future Improvements
 
 - PCB Design
 - Mobile Application
-- AI Based Fish Feeding
-- Water Quality Prediction
 - Cloud Data Logging
+- AI-Based Fish Health Detection
+- Water Quality Prediction
+- Push Notifications
+- OTA Firmware Update
 
 ---
 
-## Author
+# 👨‍💻 Author
 
 **Ruhit Mondal**
 
-Department of EEE
+B.Sc. in Electrical & Electronic Engineering (EEE)
 
-Ahsanullah University of Science and Technology
+Ahsanullah University of Science and Technology (AUST)
 
-Bangladesh
+📍 Bangladesh
+
+---
+
+# ⭐ If you like this project
+
+Please consider giving this repository a **Star ⭐**.
