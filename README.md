@@ -156,7 +156,7 @@ Smart-Aquarium-IoT-System
 │
 ├── images
 │   ├── cover.png
-│   ├── prototype.jpg
+│   ├── prototype.jpeg
 │   ├── dashboard.png
 │   ├── block-diagram.png
 │   └── circuit-diagram.png
@@ -166,6 +166,21 @@ Smart-Aquarium-IoT-System
 ```
 
 ---
+# 📈 Results
+
+✔ Automatic fish feeding every 4 hours
+
+✔ Real-time temperature monitoring
+
+✔ Water level monitoring
+
+✔ pH monitoring
+
+✔ Automatic water refill
+
+✔ Oxygen pump automation
+
+✔ Blynk IoT remote monitoring
 
 # 🚀 Future Improvements
 
